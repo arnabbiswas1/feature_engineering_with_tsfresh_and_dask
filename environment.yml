@@ -1,0 +1,22 @@
+name: dask_tsfresh
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - bokeh=2.0  # Pinned until distributed 2.19 release due to breaking change
+  - dask=2.30.0
+  - jupyterlab=2.2.6
+  - ipykernel
+  - ipywidgets
+  - nodejs
+  - numpy
+  - pip
+  - pandas
+  - python-graphviz
+  - nbserverproxy
+  - requests
+  - pyarrow
+  - matplotlib
+  - pip:
+    - dask_labextension
+    - tsfresh
