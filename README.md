@@ -1,4 +1,4 @@
-# Automatic Feature Enegineering for Large Scale Time Series Data Using tsfresh and Dask
+# Automatic Feature Engineering for Large Scale Time Series Data Using tsfresh and Dask
 
 The internet of things, digitized health care systems, financial markets, smart cities (etc.) are continuously generating time series data of different types, sizes and complexities. Time series data is different from non-temporal data. In time series data, observation at any instance of time depends on the observations from the past based on the underlying process. Often it contains noise and redundant information. To make things more complex, most of the traditional Machine Learning algorithms are developed for non-temporal data. Thus, extracting meaningful features from raw time series plays a major role. While there are features generic across different flavors/types of time series, there are features specific to different domains. As a result, feature engineering often demands familiarity with domain specific and/or signal processing algorithms making the process complicated.  
 
