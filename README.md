@@ -10,6 +10,7 @@ However, if the size of the time series data is large, we start encountering two
 
 This is where another Python framework `Dask` comes into picture. `Dask` parallelizes the feature extraction process of tsfresh. Also, by using out of core computing, it addresses the problem of larger than RAM dataset.
 
+This content would be presented at a Python Conference, [BelPy 2021](https://belpy.in/). 
 This content was used for a talk at [PyData Montreal Jan 2021 meetup](https://www.meetup.com/PyData-MTL/events/275543323/):
 - [Recording of the session](https://youtu.be/vajaT1FNP6I?start=3620&autoplay=1)
 - [Accompanying Slides](https://speakerdeck.com/arnabbiswas1/automatic-feature-enegineering-for-large-scale-time-series-data-using-tsfresh-and-dask)
